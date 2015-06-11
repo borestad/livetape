@@ -1,0 +1,33 @@
+{
+  "name": "livetape",
+  "version": "1.0.0",
+  "description": "Run tape tests with LiveScript support",
+  "main": "index.js",
+  "bin": "./bin/livetape",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/borestad/livetape.git"
+  },
+  "keywords": [
+    "LiveScript",
+    "ls",
+    "tape",
+    "test",
+    "testing",
+    "tests",
+    "cli"
+  ],
+  "author": "Johan Borestad <johan@borestad.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/borestad/livetape/issues"
+  },
+  "homepage": "https://github.com/borestad/livetape#readme",
+  "peerDependencies": {
+    "livescript": "1.x",
+    "tape": "^4.x"
+  }
+}
