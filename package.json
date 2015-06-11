@@ -1,6 +1,7 @@
 {
   "name": "livetape",
   "version": "1.0.0",
+  "engine": "node >= 0.12.x",
   "description": "Run tape tests with LiveScript support",
   "main": "index.js",
   "bin": "./bin/livetape",
